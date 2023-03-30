@@ -17,3 +17,7 @@
     src: url('../public/fonts/proximanova.otf');
 }
 
+@font-face {
+    font-family: 'Baba';
+    src: url('../public/fonts/BebasNeue-Regular.otf');
+}

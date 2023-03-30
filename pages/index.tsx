@@ -1,6 +1,8 @@
 import Discovery from '@/components/Dicovery'
 import Magic from '@/components/Magic'
 import Head from 'next/head'
+import Chocolant from '../components/Chocolant';
+import Shroom from '@/components/Shroom';
 
 export default function Home() {
   return (
@@ -14,7 +16,8 @@ export default function Home() {
       <main>
           <Discovery />
           <Magic />
-          <Discovery />
+          <Chocolant />
+          <Shroom />
       </main>
     </>
   )
