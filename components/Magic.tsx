@@ -5,11 +5,11 @@ import Image from "next/image";
 const Magic = () => {
   return (
     <section className='min-h-[80%] lg:p-10  z-10 flex flex-col justify-center items-center bg-magic relative'>
-      <div className=' bg-discovery  absolute top-0'>
+      <div className=' bg-discovery  absolute lg:top-0 -top-1'>
         <Image priority src={v1} width={3000} height={300} alt='img' />
       </div>
       <div className='flex flex-col justify-around items-center mt-14'>
-        <h1 className='text-4xl text-center lg:text-justify font-bold '>
+        <h1 className='text-4xl text-center lg:text-justify font-bold font-sunwish '>
           Magic Amanita Mushroom Gummy
         </h1>
         <p className='text-center p-5 font-normal'>

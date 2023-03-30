@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import v1 from "../public/Vectornumero1.svg";
+import TrendingFlatRoundedIcon from '@mui/icons-material/TrendingFlatRounded';
 
 function Discovery() {
   return (
@@ -17,10 +18,12 @@ function Discovery() {
       </div>
       <div className='w-[100%] lg:w-[95%] h-56 lg:h-56 m-10 p-10 bg-discovery_boite'></div>
 
-      <div className='w-80 h-10 p-2 mx-2 border-2  border-l-4 border-b-4 border-footer text-xl'>
-        <button className='shadow-xl'>SHOP ALL PRODUCTS</button>
+      <div className='w-80 h-10 p-2 mx-2 border-2  flex gap-5 justify-center items-center border-l-4 border-b-4 border-footer text-xl'>
+        <button className='shadow-xl font-beatrice font-normal text-footer'>SHOP ALL PRODUCTS</button>
+        <TrendingFlatRoundedIcon/>
       </div>
     </section>
+
   );
 }
 
