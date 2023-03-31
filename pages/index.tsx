@@ -3,6 +3,7 @@ import Magic from '@/components/Magic'
 import Head from 'next/head'
 import Chocolant from '../components/Chocolant';
 import Shroom from '@/components/Shroom';
+import Voice from '@/components/Voice';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Magic />
           <Chocolant />
           <Shroom />
+          <Voice />
       </main>
     </>
   )
