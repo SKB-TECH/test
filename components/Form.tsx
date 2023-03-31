@@ -1,6 +1,8 @@
 import React from 'react'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
+
+
 export default function Form() {
   return (
     <section className=" bg-[url('../public/contact.svg')] bg-no-repeat bg-cover min-w-full min-h-full flex flex-col">
@@ -14,7 +16,7 @@ export default function Form() {
                         < MailOutlineIcon  className='mt-2 text-gray-400'/>
                     </span>
                 </div>
-                <div className="border-2 p-1 font-beatrice border-footer border-l-4 border-b-4 mr-10 rounded-lg bg-blanc_principal lg:w-[20%] w-[90%] flex justify-center">
+                <div className="border-2 p-1 font-beatrice border-footer border-l-4 border-b-4 lg:mr-10 rounded-lg bg-blanc_principal lg:w-[20%] w-[90%] flex justify-center">
                     <button className='w-[90%] lg:w-[100%]'>
                         SIGN ME UP
                     </button>

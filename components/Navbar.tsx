@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from '../public/logo.svg'
 import Image from 'next/image';
+import {BiSearch} from 'react-icons/bi'
+import {FiShoppingBag} from 'react-icons/fi'
+import {GiHamburgerMenu} from 'react-icons/gi'
+
 
 function Navbar() {
     return (
@@ -10,7 +14,7 @@ function Navbar() {
                 <span className='text-sm text-left'>free ground shipping over $75, use code:my23</span>
                 <span className='text-sm text-left'>100% satisfaction guarantee</span>
             </div>
-            <div className='flex justify-center items-center gap-36 mt-5'>
+            <div className='flex justify-center items-center gap-48 mt-5'>
                 <Image
                     priority
                     src={logo}
@@ -27,9 +31,16 @@ function Navbar() {
                     </ul>
                 </nav>
 {/* 0990426590 */}
-                <div className='flex -mr-4 gap-10'>
-                    <span>UN</span>
-                    <span>DEUX</span>
+                <div className='flex ml-300 gap-10'>
+                    <span className='text-white hidden lg:inline-block'>
+                        <FiShoppingBag size={30}/>
+                    </span>
+                    <span className='text-white hidden lg:inline-block'>
+                        <BiSearch size={30}/>
+                    </span>
+                    <span className='text-white  lg:hidden'>
+                        <GiHamburgerMenu size={40}/>
+                    </span>
                 </div>
             </div>
         </section>
