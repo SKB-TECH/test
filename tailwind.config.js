@@ -18,6 +18,7 @@ module.exports = {
         footer: "#382F87",
         blanc_principal: "#FFFFFF",
         magic: '#C9DCFF',
+        vert:'#DCFFC9',
       },                                                                  
       fontFamily: {
         sunwish: ['Sunwish Maverick', 'sans-serif'],

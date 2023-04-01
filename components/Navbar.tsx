@@ -4,6 +4,7 @@ import Image from 'next/image';
 import {BiSearch} from 'react-icons/bi'
 import {FiShoppingBag} from 'react-icons/fi'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import Link from 'next/link';
 
 
 function Navbar() {
@@ -24,10 +25,10 @@ function Navbar() {
                 />
                 <nav className='hidden lg:inline-block'>
                     <ul className='text-white flex flex-row gap-5 font-proximanov font-semibold'>
-                        <li>Shop</li>
-                        <li>our brand</li>
-                        <li>products</li>
-                        <li>support</li>
+                        <Link href="/shopping"><li>Shop</li></Link>
+                        <Link href="#"><li>our brand</li></Link>
+                        <Link href="/produit"><li>product</li></Link>
+                        <Link href="/produit"><li>support</li></Link>
                     </ul>
                 </nav>
 {/* 0990426590 */}
