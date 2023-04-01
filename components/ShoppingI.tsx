@@ -92,7 +92,7 @@ export default function ShoppingI() {
             </div>
 
                         <div className="w-full  flex flex-row justify-center items-center mt-5 border-b-2 border-gray-400 h-14 ">
-                            <button className="h-full  w-[20%] text-lg font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
+                            <button className="h-full w-[95%] lg:w-[20%] text-lg font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
                             SHOW MORE Flavors
                             </button>
                         </div>

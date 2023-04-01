@@ -6,7 +6,7 @@ import logo from '../../public/logo2.svg';
 import Image from 'next/image';
 export default function Sub_navbar() {
   return (
-    <div className='hidden lg:flex lg:flex-row justify-center items-center gap-48 lg:mt-5'>
+    <div className='hidden lg:flex lg:flex-row justify-center items-center gap-48 lg:mt-5 cursor-pointer'>
                 <Image
                     priority
                     src={logo}

@@ -1,7 +1,42 @@
 import React from 'react'
-
+import Card_shoppingII from './s_component/Card_shoppingII'
+import shoppingData from '@/public/data/dataShopping'
 export default function ShoppingII() {
   return (
-    <div>ShoppingII</div>
+    <section className='flex flex-col bg-magic min-h-fit min-w-full'>
+            <div className='flex flex-col lg:justify-around items-center lg:flex-row h-fit min-w-full mt-5 border-b-2 border-gray-400'>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Psilocybin-free</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Vegan</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice'>Gluten-Free</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Psilocybin-free</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Vegan</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Gluten-Free</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Vegan</span>
+                <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Gluten-Free
+</span>
+            </div>
+            {/* <hr  className='h-1 text-gray-400'></hr> */}
+            <div className='flex flex-col justify-around lg:flex-row min-w-full h-42 border-b-2 border-gray-400 p-5'>
+                <h1 className='font-sunwish text-3xl lg:text-left text-center text-footer'>
+                Magic Amanita <br></br> Mushroom Gummy
+                </h1>
+                <p className="text-footer text-3xl font-beatrice font-normal">
+                Elevate your well-being with our psilocybin-free, <br></br> vegan, and gluten-free mushroom <br></br>gummies is perfect for busy lifestyles
+                </p>
+            </div>
+            <div className='flex flex-col lg:flex-row justify-between min-h-full min-w-full lg:border-b-2 border-gray-400 p-5 lg:p-0'>
+                {
+                  shoppingData.map((items,index)=>(
+                    <Card_shoppingII  title={items.title} image={items.picture} key={index}/>
+                  ))
+                }
+            </div>
+
+                        <div className="w-full  flex flex-row justify-center items-center mt-5 border-b-2 border-gray-400 h-14 ">
+                            <button className="h-full w-[95%] lg:w-[20%] text-lg font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
+                            SHOW MORE Flavors
+                            </button>
+                        </div>
+    </section>
   )
 }
