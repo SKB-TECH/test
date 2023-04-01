@@ -10,10 +10,10 @@ export default function Form() {
         <div className='flex flex-col lg:p-40'>
         <h1 className='text-blanc_principal font-sunwish text-4xl text-center mt-10 lg:text-left w-full lg:ml-5'>Join the tribe</h1>
             <div className='flex flex-col lg:flex-row w-full mt-3 justify-center items-center gap-10 p-5'>
-                <div className='flex flex-row bg-inherit  border-b-2 border-gray-400 lg:[] w-[85%] gap-3'>
-                    <input type="text" placeholder='email' className='bg-inherit outline-none text-2xl font-beatrice w-[95%]'/>
+                <div className='flex flex-row bg-inherit  border-b-2 border-gray-300 lg:[] w-[85%] gap-3'>
+                    <input type="text" placeholder='email' className='bg-inherit outline-none text-2xl font-beatrice text-gray-300 w-[95%]'/>
                     <span className=''>
-                        < MailOutlineIcon  className='mt-2 text-gray-400'/>
+                        < MailOutlineIcon  className='mt-2 text-gray-300'/>
                     </span>
                 </div>
                 <div className="border-2 p-1 font-beatrice border-footer border-l-4 border-b-4 lg:mr-10 rounded-lg bg-blanc_principal lg:w-[20%] w-[90%] flex justify-center">
