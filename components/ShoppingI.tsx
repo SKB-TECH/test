@@ -22,7 +22,7 @@ export default function ShoppingI() {
                 <h1 className='font-sunwish text-3xl lg:text-left text-center text-footer'>
                     Mushroom Magical<br></br> Disposable
                 </h1>
-                <p className="text-footer text-3xl font-beatrice font-normal">
+                <p className="text-footer text-1xl lg:text-2xl font-beatrice font-normal">
                  This fast-acting and convenient disposable <br></br> is perfect for busy lifestyles
                 </p>
             </div>

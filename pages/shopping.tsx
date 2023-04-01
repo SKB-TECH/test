@@ -6,6 +6,8 @@ import Contanct from '@/components/Contanct'
 import Form from '@/components/Form'
 import ShoppingI from '@/components/ShoppingI'
 import ShoppingII from '@/components/ShoppingII'
+import ShoppingIII from '@/components/ShoppingIII'
+import ShoppingIv from '../components/ShoppingIv';
 
 export default function shopping() {
   return (
@@ -17,6 +19,8 @@ export default function shopping() {
             <Bannier />
             <ShoppingI />
             <ShoppingII />
+            <ShoppingIII />
+            <ShoppingIv />
             <Contanct />
             <Form/>
         </section>

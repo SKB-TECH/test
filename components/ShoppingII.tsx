@@ -17,10 +17,10 @@ export default function ShoppingII() {
             </div>
             {/* <hr  className='h-1 text-gray-400'></hr> */}
             <div className='flex flex-col justify-around lg:flex-row min-w-full h-42 border-b-2 border-gray-400 p-5'>
-                <h1 className='font-sunwish text-3xl lg:text-left text-center text-footer'>
+                <h1 className='font-sunwish text-2xl lg:text-3xl lg:text-left text-center text-footer'>
                 Magic Amanita <br></br> Mushroom Gummy
                 </h1>
-                <p className="text-footer text-3xl font-beatrice font-normal">
+                <p className="text-footer text-1xl lg:text-2xl font-beatrice font-normal">
                 Elevate your well-being with our psilocybin-free, <br></br> vegan, and gluten-free mushroom <br></br>gummies is perfect for busy lifestyles
                 </p>
             </div>
@@ -33,7 +33,7 @@ export default function ShoppingII() {
             </div>
 
                         <div className="w-full  flex flex-row justify-center items-center mt-5 border-b-2 border-gray-400 h-14 ">
-                            <button className="h-full w-[95%] lg:w-[20%] text-lg font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
+                            <button className="h-10 w-[95%] lg:w-[15%] text-sm font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
                             SHOW MORE Flavors
                             </button>
                         </div>
