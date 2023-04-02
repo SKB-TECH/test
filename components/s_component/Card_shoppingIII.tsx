@@ -11,7 +11,7 @@ interface shopping{
 }
 export default function Card_shoppingIII(data:shopping) {
   return (
-    <div className='flex flex-col justify-center items-center p-10 border-r-2 border-gray-400'>
+    <div className='flex flex-col justify-center items-center p-10 lg:border-r-2 border-gray-400'>
     <div className='flex justify-center items-center'>
         <Image
         priority

@@ -39,6 +39,13 @@ export default function ShoppingIv() {
                     SHOW MORE Flavors
                     </button>
                 </div>
+
+
+                <div className="w-full flex flex-row justify-center items-center mt-5 border-b-2 border-gray-400 h-14 ">
+                    <button className="h-10 w-[95%] bg-white  lg:w-[25%] text-sm font-semibold text-footer font-beatrice uppercase ml-2  border-2 border-l-4 border-b-4 border-footer shadow-xl mb-5 rounded-md">
+                    SHOW MORE PRODUCTS
+                    </button>
+                </div>
 </section>
   )
 }

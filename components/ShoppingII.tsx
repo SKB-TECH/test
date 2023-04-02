@@ -4,7 +4,7 @@ import shoppingData from '@/public/data/dataShopping'
 export default function ShoppingII() {
   return (
     <section className='flex flex-col bg-magic min-h-fit min-w-full'>
-            <div className='flex flex-col lg:justify-around items-center lg:flex-row h-fit min-w-full mt-5 border-b-2 border-gray-400'>
+            <div className='flex flex-col lg:justify-around items-center lg:flex-row h-fit min-w-full mt-5 lg:border-b-2 border-gray-400'>
                 <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Psilocybin-free</span>
                 <span className='text-footer lg:text-lg  text-2xl font-beatrice mb-2'>Vegan</span>
                 <span className='text-footer lg:text-lg  text-2xl font-beatrice'>Gluten-Free</span>

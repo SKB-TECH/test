@@ -4,6 +4,7 @@ import { FiShoppingBag } from 'react-icons/fi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import logo from '../../public/logo2.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 export default function Sub_navbar() {
   return (
     <div className='hidden lg:flex lg:flex-row justify-center items-center gap-48 lg:mt-5 cursor-pointer'>
@@ -16,10 +17,10 @@ export default function Sub_navbar() {
                 />
                 <nav className='hidden lg:inline-block'>
                     <ul className='text-footer flex flex-row gap-5 font-proximanov font-semibold'>
-                        <li>Shop</li>
-                        <li>our brand</li>
-                        <li>products</li>
-                        <li>support</li>
+                        <Link href="/shopping"><li>Shop</li></Link>
+                        <Link href="#"><li>our brand</li></Link>
+                        <Link href="/produit"><li>product</li></Link>
+                        <Link href="/produit"><li>support</li></Link>
                     </ul>
                 </nav>
 {/* 0990426590 */}
