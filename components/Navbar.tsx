@@ -26,9 +26,9 @@ function Navbar() {
                 <nav className='hidden lg:inline-block'>
                     <ul className='text-white flex flex-row gap-5 font-proximanov font-semibold'>
                         <Link href="/shopping"><li>Shop</li></Link>
-                        <Link href="#"><li>our brand</li></Link>
+                        <Link href="/"><li>our brand</li></Link>
                         <Link href="/produit"><li>product</li></Link>
-                        <Link href="/produit"><li>support</li></Link>
+                        <Link href="/"><li>support</li></Link>
                     </ul>
                 </nav>
 {/* 0990426590 */}

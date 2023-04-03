@@ -4,7 +4,7 @@ import {AiOutlinePlusCircle} from "react-icons/ai"
 
 export default function ProduitIII() {
   return (
-    <section className='bg-vert flex flex-col lg:flex-row justify-around items-center p-5'>
+    <section className='bg-vert flex flex-col lg:flex-row justify-around p-5'>
         <div className="flex flex-col gap-5 lg:w-[50%]">
             <h1 className='text-footer font-sunwish font-bold lg:text-4xl text-2xl mt-5 p-5'>
                     Your questions <br></br> answered Here
