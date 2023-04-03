@@ -3,6 +3,7 @@ import BannierB from '@/components/BannierB'
 import Contanct from '@/components/Contanct'
 import Form from '@/components/Form'
 import ProduitI from '@/components/ProduitI'
+import ProduitII from '@/components/ProduitII'
 import ShoppingI from '@/components/ShoppingI'
 import ShoppingII from '@/components/ShoppingII'
 import ShoppingIII from '@/components/ShoppingIII'
@@ -19,11 +20,9 @@ export default function produit() {
         <section className="flex flex-col min-w-full min-h-screen">
             <BannierB />
             <ProduitI />
-            <ShoppingII />
-            <ShoppingIII />
-            <ShoppingIv />
-            <Contanct />
-            <Form/>
+            <ProduitII />
+            {/* <Contanct />
+            <Form/> */}
         </section>
     </LayoutOthers>
   )

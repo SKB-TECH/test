@@ -4,7 +4,7 @@ import Image from "next/image";
 import dataProduit from "@/public/data/dataproduct";
 
 
-export default class SimpleSlider extends Component {
+export default class Sliders extends Component {
   render() {
     const settings = {
       dots: true,

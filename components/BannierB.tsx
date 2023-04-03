@@ -65,6 +65,7 @@ export default function Bannier() {
                 </button>
                 <TrendingFlatRoundedIcon className="text-footer"/>
               </div>
+              <p className='text-footer font-beatrice lg:ml-24 mb-5'>In stock. Ships by tomorrow, Mar 23 - Terms apply</p>
         </section>
       
         

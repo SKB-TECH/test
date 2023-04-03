@@ -6,7 +6,6 @@ import StarIcon from '@mui/icons-material/Star';
 import {BsChevronRight} from 'react-icons/bs';
 import {CiSettings} from 'react-icons/ci';
 import {AiOutlineStar, AiTwotoneStar,AiOutlineLike} from 'react-icons/ai'
-import Voice from './Voice';
 import VoiceI from './VoiceI';
 
 export default function ProduitI() {
