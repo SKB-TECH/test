@@ -19,6 +19,7 @@ module.exports = {
         blanc_principal: "#FFFFFF",
         magic: '#C9DCFF',
         vert:'#DCFFC9',
+        fblanc:'#E7E3FF'
       },                                                                  
       fontFamily: {
         sunwish: ['Sunwish Maverick', 'sans-serif'],

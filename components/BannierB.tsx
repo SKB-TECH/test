@@ -19,7 +19,7 @@ export default function Bannier() {
     incrime>=1 && setIncrime(incrime-1)
   }
   return (
-    <section className="flex flex-col min-h-screen min-w-full bg-discovery lg:mt-10 border-b-2 border-gray-400">
+    <section className="flex flex-col min-h-screen min-w-full bg-discovery lg:mt-10 border-b-2 border-footer">
         <Sub_navbar/>
         <section className="flex mt-5 lg:mt-0 flex-col lg:flex-row lg:justify-center lg:items-center  h-92 min-w-full lg:p-20 mb-10 lg:mb-0">
             {/* first part */}
