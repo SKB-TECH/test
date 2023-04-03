@@ -4,6 +4,7 @@ import Contanct from '@/components/Contanct'
 import Form from '@/components/Form'
 import ProduitI from '@/components/ProduitI'
 import ProduitII from '@/components/ProduitII'
+import ProduitIII from '@/components/ProduitIII'
 import ShoppingI from '@/components/ShoppingI'
 import ShoppingII from '@/components/ShoppingII'
 import ShoppingIII from '@/components/ShoppingIII'
@@ -21,8 +22,9 @@ export default function produit() {
             <BannierB />
             <ProduitI />
             <ProduitII />
-            {/* <Contanct />
-            <Form/> */}
+            <ProduitIII />
+            <Contanct />
+            <Form/>
         </section>
     </LayoutOthers>
   )

@@ -21,7 +21,7 @@ export default function ProduitII() {
             {
                 dataProduitI.map((items,index)=>(
                     <div className="flex flex-col lg:flex-row justify-around wrap lg:no-wrap" key={index}>
-                    <div className="bg-fblanc w-36 h-64 mt-3 mb-3 rounded-lg shadow-lg flex flex-col items-center">
+                    <div className="bg-fblanc lg:w-36 w-72  lg:h-64 h-72 mt-3 mb-3 rounded-lg shadow-lg flex flex-col items-center">
                         <h1 className="uppercase text-footer font-Baba text-center font-bold mt-3">{items.title}</h1>
                         <div className="flex flex-row text-footer">
                             <AiTwotoneStar size={20}/>
