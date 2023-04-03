@@ -43,7 +43,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings} >
          {
             dataProduit ?.map((items,index)=>(
-                <div key={index}>
+                <div key={index} className="ml-50">
                     <Image 
                     src={items.picture}
                     width={200}
